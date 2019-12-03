@@ -1,0 +1,134 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0;
+}
+
+header{
+  background-image: url('img/home.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+a{
+  text-decoration: none;
+}
+
+#home, #resume, #contact{
+	height: 700px;
+}
+
+#menu_bar{
+  height: 70px;
+}
+
+#menu { 
+  padding: 10px;
+  margin: 0;
+  list-style: none; 
+  text-align: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  background: black;
+}
+
+
+#menu>li {
+  display: inline;
+  margin: 0 auto;
+}
+
+#menu>li>a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 20px; 
+  color: #ffffff;
+}
+
+#menu>li>a:hover {
+  color: #ff9933;
+}
+
+
+#menu>li {
+  display: inline;
+  margin: 0 auto;
+}
+
+.h_content{ 
+  color: #ffffff;
+  text-align: center;
+  margin: 25vh 20vw;
+} 
+
+#about{
+  background-color: #333333;
+  color: white; 
+  height: 450px;
+  padding: 20vh 10vw;
+} 
+
+#about_1{
+  float: left; 
+  width: 50%;
+}
+
+#about_2{
+  padding: 15vh 0;
+  float: right; 
+}
+
+#about_2 iframe{
+  width: 35vw;
+  height: 25vw;
+}
+
+#resume{
+  background-color: #f2f2f2;
+  height: 500px;
+  padding: 8.5vh 15vw 0 15vw;
+}
+
+#resume_img{
+  float: left;
+  width: 30%
+} 
+
+#resume_ct{
+  float: right;
+  width: 60%;
+  height: 300px;
+  margin: 8vw 0 10vw 0;
+  text-align: right;
+}
+
+.school{
+  color: black;
+} 
+
+footer{
+  background-color: black;
+  height: 110px;
+  margin: 0;
+}
+
+#f_content{
+  float: right;
+  color: white;
+  margin: 0.7vw;
+}
+
+#tag{
+  margin: 1vw;
+  float: left;
+  color: #ffffff;
+  width: 60vw;
+}
+
+.tag_a{
+  color: white;
+}

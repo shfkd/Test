@@ -1,0 +1,168 @@
+body{
+  margin: 0;
+}
+
+#menu_bar{
+  height: 60px;
+}
+
+#menu { 
+  z-index: 1;
+  padding: 10px;
+  margin: 0;
+  list-style: none; 
+  text-align: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  background: black;
+}
+
+
+#menu>li {
+  display: inline;
+  margin: 0 auto;
+}
+
+#menu>li>a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 20px; 
+  color: #ffffff;
+}
+
+#menu>li>a:hover {
+  color: #ff9933;
+}
+
+
+#menu>li {
+  display: inline;
+  margin: 0 auto;
+}
+
+#img_btn_bar{
+  padding: 5vw 8vw;
+  background-color: #f2f2f2;
+  height: 115vw;
+}
+
+#btn_baking{
+  height: 35vw;
+  width: 63vw;
+  margin: 2vw 10vw;
+  position:absolute;
+}
+
+#btn_baking img{
+  height: 100%;
+  width: 100%
+}
+
+#btn_cafe{
+  height: 35vw;
+  width: 63vw;
+  margin: 40vw 10vw 2vw 10vw;
+  position:absolute;
+}
+
+#btn_cafe img{
+  height: 100%;
+  width: 100%
+}
+
+#btn_craft{
+  height: 35vw;
+  width: 63vw;
+  margin: 78vw 10vw 2vw 10vw;
+  position:absolute;
+}
+
+#btn_craft img{
+  height: 100%;
+  width: 100%
+}
+
+.darkness {
+  position:absolute;
+  top:0;
+  left:0;
+  width:inherit;
+  height:inherit;
+  background:#000000;
+  /* 추가된 부분 */
+  opacity:0;
+  transition:all .6s linear;
+}
+
+.btn-plus {
+  position:absolute;
+  top:45%;
+  left:45%;
+  background:red;
+  width:55px;
+  height:55px;
+  border-radius:50%;
+  text-align:center;
+  /* 추가된 부분 */
+  opacity:0;
+  transform:scale(2);
+  transition:all .3s linear;
+}
+
+.btn-plus span {
+  font-size:2.3em;
+  color:#ffffff;
+  user-select:none;
+}
+
+#btn_baking:hover .darkness{
+  opacity:0.4;
+}
+
+#btn_baking:hover .btn-plus {
+  opacity:1;
+  transform:scale(1);
+}
+
+#btn_cafe:hover .darkness{
+  opacity:0.4;
+}
+
+#btn_cafe:hover .btn-plus {
+  opacity:1;
+  transform:scale(1);
+}
+
+#btn_craft:hover .darkness{
+  opacity:0.4;
+}
+
+#btn_craft:hover .btn-plus {
+  opacity:1;
+  transform:scale(1);
+}
+
+footer{
+  background-color: black;
+  height: 110px;
+  margin: 0;
+}
+
+#f_content{
+  float: right;
+  color: white;
+  margin: 0.7vw;
+}
+
+#tag{
+  margin: 1vw;
+  float: left;
+  color: #ffffff;
+  width: 60vw;
+}
+
+.tag_a{
+  color: white;
+  text-decoration: none;
+}
